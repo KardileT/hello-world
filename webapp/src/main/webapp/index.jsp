@@ -40,7 +40,10 @@ div {
   <form action="/action_page.php">
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
+    
+     <label for="fname">Middle Name</label>
+    <input type="text" id="fname" name="Middlename" placeholder="Your middle name..">
+    
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
