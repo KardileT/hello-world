@@ -34,7 +34,7 @@ div {
 </style>
 <body>
 
-<h3>Lets Do Final Test Of Integration Ansible with CI then we will do CD with Kubernetes....</h3>
+<h3>Lets Do Final Test Of CI/CD....</h3>
 
 <div>
   <form action="/action_page.php">
