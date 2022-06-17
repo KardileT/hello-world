@@ -1,63 +1,23 @@
-<!DOCTYPE html>
-<html>
-<style>
-input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
+<!-- Form which will send a GET request to the current URL -->
+<form method="get">
+  <label>Name:
+    <input name="submitted-name" autocomplete="name">
+  </label>
+  <button>Save</button>
+</form>
 
-input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
+<!-- Form which will send a POST request to the current URL -->
+<form method="post">
+  <label>Name:
+    <input name="submitted-name" autocomplete="name">
+  </label>
+  <button>Save</button>
+</form>
 
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-div {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-</style>
-<body>
-
-<h3>Our First Form For Tomcat Server</h3>
-
-<div>
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-    
-     <label for="fname">Middle Name</label>
-    <input type="text" id="fname" name="Middlename" placeholder="Your middle name..">
-    
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-  
-    <input type="submit" value="Submit">
-    <center><h1>WE DONE IT</h1></center>
-  </form>
-</div>
-
-</body>
-</html>
+<!-- Form with fieldset, legend, and label -->
+<form method="post">
+  <fieldset>
+    <legend>Title</legend>
+    <label><input type="radio" name="radio"> Select me</label>
+  </fieldset>
+</form>
