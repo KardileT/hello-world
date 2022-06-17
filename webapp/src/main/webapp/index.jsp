@@ -1,5 +1,5 @@
 <!-- Form which will send a GET request to the current URL -->
-<h1>My DevOps Form </h1> 
+<center><h1>My DevOps Form </h1></center> 
 
 <form method="get">
   <label>Name:
